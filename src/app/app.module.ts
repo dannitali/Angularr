@@ -5,14 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegistrarComponent } from './registrar/registrar.component';
-import { RecuperarcontrComponent } from './recuperarcontr/recuperarcontr.component';
+import { ContrasenaComponent } from './contrasena/contrasena.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     RegistrarComponent,
-    RecuperarcontrComponent
+    ContrasenaComponent
   ],
   imports: [
     BrowserModule,

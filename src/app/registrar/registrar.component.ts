@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-registrar',
@@ -7,9 +6,5 @@ import { Router } from '@angular/router';
   styleUrl: './registrar.component.css'
 })
 export class RegistrarComponent {
-  constructor(private router: Router) { }
 
-  navegarAlOtroComponente() {
-    this.router.navigate(['']);
-  }
 }
